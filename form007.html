@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 007</title>
+    <style>
+
+        textarea {
+            resize: none;
+            height: 500px;
+            width: 600px;
+          }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de formulario</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="" selected>--selecione--</option>
+                <optgroup label="Sudeste">
+                    <option value="sp">sao paulo</option>
+                    <option value="rj">rio de janeiro</option>
+                    <option value="mg">Minas gerais</option>
+                    <option value="pr">parana</option>
+                    <option value="mt">mato grosso</option>
+                </optgroup>
+
+                <optgroup label= "nordeste">
+                    <option value="ma">maranhao</option>
+                    <option value="pe">Pernanbuco</option>
+                    <option value="rn">Rio grande do norte</option>
+                    <option value="ba" >Bahia</option>
+                </optgroup>
+
+
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">profissao</label>
+           <input type="text" name="prof" id="iprof" list="lisprof">
+           <datalist id="lisprof">
+            <option >dsenvolvedor</option>
+            <option >engenheiro</option>
+            <option >professor</option>
+            <option >administrador</option>
+
+           </datalist>
+        </p>
+        <p><label for="imsg">Mensagen</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10" ></textarea>
+        
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+           
+        </p>
+
+    </form>
+</body>
+</html>
