@@ -1,1 +1,5 @@
-os dados foram enviados
+<?php
+
+Echo "os dados foram enviados";
+
+?>
