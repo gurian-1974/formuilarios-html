@@ -10,7 +10,7 @@ grandes: acima 1200px*/
 @media print {/*impressora*/
     
 }
-@media screen and(min-width:768px) and(max-width:992px){
+@media screen and(min-width:500px) and(max-width:992px){
    body{
     background-image: url(../img/back-tablet.jpg);
    }
@@ -22,7 +22,7 @@ img#tela{display: none;}
 }
 @media screen and(min-width:992px) and(max-width:1200px){
     body{
-        background: url(../img/back-pc.jpg);
+        background-image: url(../img/back-pc.jpg);
        }
        img#phone{display: none;}
 img#table{display:none;}
@@ -33,7 +33,7 @@ img#tela{display: none;}
 }
 @media screen and(min-width:1200px){
     body{
-        background: url(../img/back-tv.jpg);
+        background-image: url(../img/back-tv.jpg);
        }
 img#phone{display: none;}
 img#table{display:none;}
