@@ -38,7 +38,7 @@ header>h1{
     font-family:'android', Arial, sans-serif ;
     font-size: 2.5em;
     font-weight: bolder;
-    box-shadow: rgba 3px 3px 3px 5px(0, 0, 0, 0.511);
+    text-shadow: 2px 4px 8px rgb(13, 11, 11);
 
 }
 
@@ -66,7 +66,8 @@ menu >ul{
 menu >ul>li>a{
     display: block;
     color: white;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
+   padding-top: 10px;
    text-decoration: none;
    background-color: rgb(1, 1, 108);
    text-align: center;
