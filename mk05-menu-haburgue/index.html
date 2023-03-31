@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Menu media query</title>
+</head>
+<body>
+    <header>
+        <h1>EVERY CELL</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+       <menu id="itens">
+            <ul>
+                <li><a href="#">menu-1</a></li>
+                <li><a href="#">menu-2</a></li>
+                <li><a href="#">menu-3</a></li>
+                <li><a href="#">menu-4</a></li>
+                <li><a href="#">menu-5</a></li>   
+            </ul>
+       </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media query</h2>
+                <p>O ex-presidente Jair Bolsonaro (PL) lamentou a decisão da Casa 
+                    Civil de retirar sua escolta de carros blindados. Em vídeo pub
+                    licado nesta quinta-feira, 30, nas redes sociais, o ex-chefe d
+                    o Executivo disse que a medida imposta pelo governo de Luiz Inácio 
+                    Lula da Silva representa um risco à sua vida.
+
+                    “Na segunda-feira, tinha direito a dois carros blindados”, disse 
+                    Bolsonaro. “Com o anúncio da minha chegada, a Cas
+                    a Civil os retirou. Estou com dois carros normais. Você pode perguntar: 
+                    ‘Tem amparo na lei ou não?’. Não está defini
+                    do. A gente vê acontecendo essa questão do PCC… Não tenho peito de aço.
+                     Vou tentar buscar um carro blindado para mim.”</p>
+                     <p>O ex-presidente acredita que a decisão da Casa Civil é um “recado” do 
+                        Partido dos Trabalhadores (PT). “Não é um atitude racional”, criticou 
+                        Bolsonaro. “Nunca persegui nenhum ex-presidente. Tudo que foi pedido, 
+                        concedemos. Agora, comigo, anunciam: ‘Não há mais carros blindados para
+                         você’. Estão dando um recado. Só posso entender isso aí.”
+
+                        Em nota, a Casa Civil informou que “nenhum ex-presidente tem direito à 
+                        utilização de carro blindado”. Conforme prevê a Lei no 7.474, de 8 de
+                         maio de 1986, “os ex-presidentes têm direito a dois veículos oficiais
+                          e os respectivos motoristas”, acrescentou. “Nenhum ex-presidente utiliza 
+                          veículos blindados cedidos pela Presidência da República.”</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+if(itens.style.display == 'block'){
+    itens.style.display = 'none'
+}
+else{
+    itens.style.display = 'block'
+    }
+}
+    </script>
+</body>
+</html>
